@@ -1,0 +1,24 @@
+{
+    "name": "nuno/test",
+    "authors": [
+        {
+            "name": "Nuno Alexandre",
+            "email": "nunnomalex@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "monolog/monolog": "^1.24",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/support": "~5.7.0|~5.8.0",
+        "php-http/guzzle6-adapter": "^2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Loganalizer\\": "src"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
